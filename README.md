@@ -1,4 +1,6 @@
 # Crestron-MyQ
+As of November, 2021 MyQ has changed their API and broken this module.  I'm not sure when/if this will be fixed
+
 This module works the MyQ API to control a garage door operner.  Note - the module uses https for communications
 so it won't run on a Crestron MC3 processor using the latest Crestron databases.  To run it on an MC3 you need 
 to roll back the databases to a version that still supports https communications.
